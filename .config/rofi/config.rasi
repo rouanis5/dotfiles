@@ -16,6 +16,7 @@ configuration {
 
 window { 
 	width: 35%;
+	border-radius: 8px;
 	transparency: "real";
 	orientation: vertical;
 	border-color: #74adc0;
