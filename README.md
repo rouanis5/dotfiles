@@ -1,7 +1,10 @@
 # 🎉 Ouanis' dotfiles
 ![alt text](/preview/01_image.png)
-<br />
+
 ![alt text](/preview/00_image.png)
+
+![alt text](/preview/02_image.jpg)
+
 
 
 ## 📝 Todo:
@@ -12,7 +15,7 @@
 
 ## 📌 Dependencies:
 ```
-i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow
+i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow, maim
 ```
 
 ## 💄 Fonts:
