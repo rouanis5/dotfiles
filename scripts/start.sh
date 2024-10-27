@@ -36,7 +36,8 @@ fi
 
 launch_app 1 "$extern" "brave-browser --app-id=cfammbeebmjdpoppachopcohfchgjapd"
 # open kitty terminal with the last saved tmux session
-launch_app 2 "$extern" "kitty --hold -e bash -c "tmux attach-session -t $(tmux list-sessions | tail -n 1 | awk '{print $1}') || tmux new-session""
+# launch_app 2 "$extern" "kitty --hold -e bash -c "tmux attach-session -t $(tmux list-sessions | tail -n 1 | awk '{print $1}') || tmux new-session""
+launch_app 2 "$extern" "WINIT_X11_SCALE_FACTOR=1 alacritty"
 launch_app 3 "$extern" "brave-browser"
 # opem ticktick with app-id
 
