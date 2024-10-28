@@ -8,14 +8,17 @@
 
 
 ## 📝 Todo:
+- [ ] add getting started, features, licence and sections
 - [ ] read about nixos
 - [ ] read about ansible (primegen)
 - [ ] fix startup script and check if the softwares are installed
 - [ ] make a script that checks all dependecies are all installed
+- [ ] install thefuck
+- [ ] how to autoinstall zsh libraries?
 
 ## 📌 Dependencies:
 ```
-i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow, maim
+i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow, maim, bat
 ```
 
 ## 💄 Fonts:
