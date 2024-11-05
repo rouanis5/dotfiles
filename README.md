@@ -8,19 +8,23 @@
 
 
 ## 📝 Todo:
+### urgent:
+- [ ] add light keybindings
+- [ ] remap screenshots (flameshot instead)
+### others:
 - [ ] add getting started, features, licence and sections
 - [ ] read about nixos
 - [ ] read about ansible (primegen)
 - [ ] fix startup script and check if the softwares are installed
 - [ ] make a script that checks all dependecies are all installed
-- [ ] install thefuck
 - [ ] how to autoinstall zsh libraries?
+- [ ] make a small presentations and mocks
+- [ ] add notifcations and cava pictures
 
 ## 📌 Dependencies:
 ```
-i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow, maim, bat
+i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pulseaudio, stow, maim, bat, calc, light
 ```
-
 ## 💄 Fonts:
 - hack nerd font
 
