@@ -4,5 +4,5 @@ program_options:
 device_config:
 - id_type: squashfs
   ignore: true
-- is_loop: true
+- is_loop: false
   ignore: true

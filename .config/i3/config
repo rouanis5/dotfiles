@@ -229,7 +229,7 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 # dmenu
-bindsym $mod+d exec "rofi -modi drun,ssh,run -show drun"
+bindsym $mod+d exec "rofi -modi drun,run -show drun"
 
 # Remove border and title
 for_window [class="^.*"] border pixel 1
@@ -249,7 +249,7 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 ## Language toggle
-exec setxkbmap -model pc105 -layout us,ara,fr -option 'grp:win_space_toggle'
+exec_always --no-startup-id setxkbmap -model pc105 -layout us,ara,fr -option "grp:win_space_toggle" &
 
 exec --no-startup-id nitrogen --restore
 ## termianl transparency
@@ -259,7 +259,7 @@ exec_always --no-startup-id picom -d
 exec_always --no-startup-id dunst
 
 ## Remap capslock key
-exec_always --no-startup-id setxkbmap -option "caps:escape"
+exec_always --no-startup-id setxkbmap -option "caps:escape" &
 
 ## change border title
 default_border pixel 0
