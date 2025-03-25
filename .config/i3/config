@@ -249,7 +249,10 @@ bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewi
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 ## Language toggle
-exec_always --no-startup-id setxkbmap -model pc105 -layout us,ara,fr -option "grp:win_space_toggle" &
+# exec setxkbmap -model pc105 -layout us,ara,fr -option 'grp:win_space_toggle'
+bindsym $mod+Ctrl+1 exec "setxkbmap -layout us && notify-send '🇺🇸 Keyboard: English'"
+bindsym $mod+Ctrl+2 exec "setxkbmap -layout ara && notify-send '🇸🇦 لوحة المفاتيح: العربية'"
+bindsym $mod+Ctrl+3 exec "setxkbmap -layout fr && notify-send '🇫🇷 Clavier: Français'"
 
 exec --no-startup-id nitrogen --restore
 ## termianl transparency
@@ -273,3 +276,4 @@ bindsym $mod+p move workspace to output right
 
 # on startup
 exec --no-startup-id ~/scripts/start.sh
+

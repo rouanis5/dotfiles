@@ -143,3 +143,11 @@ fi
 
 alias okss:auth="~/scripts/dev/ouedkniss/auth.sh"
 alias cat=bat
+# fnm
+FNM_PATH="/home/rouanis5/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/rouanis5/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
+
+alias batteryhealth="upower -i $(upower -e | grep 'BAT')"

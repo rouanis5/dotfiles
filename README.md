@@ -29,6 +29,7 @@ i3, polybar, rofi, dunst, nitrogen, ulauncher, udiskie, alacritty, fzf, zsh, pul
 - hack nerd font
 
 ## ✨ Inspirations:
+- https://github.com/lakinduakash/linux-wifi-hotspot
 - https://github.com/Keyitdev/dotfiles/
 - https://frontendmasters.com/courses/developer-productivity/
 - https://tamerlan.dev/how-i-manage-my-dotfiles-using-gnu-stow/
