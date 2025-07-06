@@ -42,4 +42,4 @@ launch_app 3 "$extern" "brave-browser"
 # opem ticktick with app-id
 
 launch_app 9 "$intern" "code"
-launch_app 10 "$intern" "flatpak run com.discordapp.Discord"
+# launch_app 10 "$intern" "legcord"
